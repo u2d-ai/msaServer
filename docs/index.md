@@ -17,13 +17,14 @@
 ------
 
 ## Features
-- **TODO**: TODO.
-
+- **Uvicorn Wrapper**: MSAServerUvicorn.
+- **Gunicorn Wrapper**: MSAServerGunicorn.
 
 ## Main Dependencies
 
-- Just Python > 3.7
-- 
+- **gunicorn~=20.1.0**: WSGI HTTP Server for UNIX
+- **uvicorn~=0.18.3**: The lightning-fast ASGI server.
+
 
 
 ### Usage example
