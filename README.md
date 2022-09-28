@@ -23,7 +23,13 @@
 ------
 
 ## Features
-- **TODO**: TODO.
+- **Uvicorn Wrapper**: MSAServerUvicorn.
+- **Gunicorn Wrapper**: MSAServerGunicorn.
+
+## Main Dependencies
+
+- **gunicorn~=20.1.0**: WSGI HTTP Server for UNIX
+- **uvicorn~=0.18.3**: The lightning-fast ASGI server.
 
 
 ## License Agreement
